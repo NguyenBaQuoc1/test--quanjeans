@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 1200px ;
+    background-color: antiquewhite;
+    height: 1000px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* display: flex; */
+}
+
+header {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    float: left;
+}
+
+
+.content {
+    width: 80%;
+    /* background-color: rgb(0, 17, 255); */
+    height: 1000px;
+    float: left;
+
+}
+
+.logo h1 {
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding: 16px;
+    margin: 16px 0;
+    font-weight: 500;
+}
+
+.nav {
+    padding: 64px 0px;
+    flex: 1;
+    flex-direction: column;
+}
+.nav > ul >  li  {
+    width: auto;
+    list-style-type: none;
+    display: block;
+    /* display: inline-block; */
+}
+.nav > ul > li > a {
+    width: auto;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    
+
+}
+ul {
+    padding-left: -1rem !important;
+}
+
+.nav ion-icon {
+    line-height: 45px;
+}
+
+.subnav li a{
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.subnav li  {
+    list-style-type: none;
+}
+
+.subnav {
+    display: block;
+    margin: 10px 0px;
+    margin-right: 8px;
+}
+
+.subnav li:hover a ,
+.nav > ul > li:hover > a{
+    background-color: rgb(131, 131, 131);
+    color: #fff;
+    display: block;
+}
+
+i.ti-angle-down {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bgr-ccc {
+    background-color: #ccc;
+}
+
+/* .nav li:active .subnav {
+    display: block;
+} */
+
+.close-modal {
+    
+    display: none;
+}
+
+
+.subnav-hide {
+    display: none !important;
+}
+
+.subnav-show {
+    display: block !important;
+
+}
+
+.content{
+    padding: 0 15px;
+    width: 80%;
+}
+.top_content{
+
+    font-size: 24px!important;
+}
+.p-left{
+    margin: 24px 0;
+    float: left;
+    clear: both;
+}
+.p_right{
+    margin: 24px 0;
+    float: right;
+}
+.icon-1{
+    margin-right: 10px;
+}
+.content-img{
+    position: relative;
+}
+.content-in-img{
+    position: absolute;
+    padding: 24px 48px;
+    top: 84px;
+    left: 0;
+    color: white;
+    font-weight: 400;
+
+}
+.h1-new{
+    font-family: cursive;
+    font-size: 64px;
+    margin: 10px 0;
+}
+.h1-coll{
+    font-size: 36px;
+    margin: 10px 0;
+}
+.a-black{
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 28px!important;
+}
+.col img{
+    width: 100%;
+}
+.item-p{
+    color: #757575!important;
+    font-size: 30px;
+    border: solid 2px #ccc;
+}
+.subscribe{
+    padding: 32px 16px;
+    background-color: black;
+    color: white;
+    height: 266px;
+}
+#email{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+.button-subscribe{
+    border: #ccc solid 2px;
+    color: black;
+    padding: 8px;
+    background-color: #ccc;
+}
+.button-subscribe:hover{
+    color: white;
+    background-color: #f44336!important
+
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0) !important;
+    background-color: #fff !important;
+    border-color: #ffffff !important;
+}
+
+.nav2 li {
+    list-style-type: none;
+    
+    /* padding: 12px 16px; */
+}
+
+.nav2 li:hover a {
+    
+    background-color: rgb(131, 131, 131);
+}
+.nav2 li a ,
+.btn {
+    color:  #000;
+    text-decoration: none;
+    padding: 12px 16px !important;
+    width: 100% !important;
+    text-align: inherit !important;
+    display: block !important;
+}
+
+.nav2 li:hover a{
+    background-color: rgb(131, 131, 131) !important;
+    color: #fff !important;
+    transition: none !important;
+    border-radius: 0px !important;
+    display: block;
+}
